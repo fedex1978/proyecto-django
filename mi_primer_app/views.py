@@ -8,4 +8,4 @@ def saludo(request):
     return HttpResponse ("Hola Mundo")
 
 def saludo_con_template(request):
-    return render (request,'mi-primer-app/saludo.html')
+    return render (request,'mi_primer_app/saludo.html')
